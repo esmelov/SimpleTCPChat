@@ -1,0 +1,7 @@
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\bin\Debug\TcpChatClient.exe
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\bin\Debug\TcpChatClient.pdb
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\bin\Debug\TcpChatTypes.dll
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\bin\Debug\TcpChatTypes.pdb
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\obj\Debug\TcpChatClient.csprojResolveAssemblyReference.cache
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\obj\Debug\TcpChatClient.exe
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatClient\obj\Debug\TcpChatClient.pdb
