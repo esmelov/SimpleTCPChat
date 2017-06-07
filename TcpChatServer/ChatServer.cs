@@ -125,7 +125,7 @@ namespace TcpChatServer
                     {
                         newConnectedClient.AsyncSendIncomingMessage(new ClientMessage
                         {
-                            PacketType = MessageTypes.MessageType.UserMessage,
+                            PacketType = MessageType.UserMessage,
                             UserName = "Server",
                             DateOfMessage = DateTime.Now,
                             MessageText = "Превышено максимальное количество подключений к серверу."
@@ -174,7 +174,7 @@ namespace TcpChatServer
         {
             switch (cm.PacketType)
             {
-                case MessageTypes.MessageType.UserMessage:
+                case MessageType.UserMessage:
                     foreach (ConnectedClient tc in _clients)
                     {
                         if (!_client.Equals(tc))
@@ -183,7 +183,7 @@ namespace TcpChatServer
                         }
                     }
                     break;
-                case MessageTypes.MessageType.ServerMessage:
+                case MessageType.ServerMessage:
                     switch (cm.MessageText)
                     {
                         case "Сonnected.":

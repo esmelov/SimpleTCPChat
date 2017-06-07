@@ -2,3 +2,4 @@ d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatTypes\bin\Deb
 d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatTypes\bin\Debug\TcpChatTypes.pdb
 d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatTypes\obj\Debug\TcpChatTypes.dll
 d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatTypes\obj\Debug\TcpChatTypes.pdb
+d:\pers\documents\visual studio 2017\Projects\TcpChatServer\TcpChatTypes\obj\Debug\TcpChatTypes.csprojResolveAssemblyReference.cache

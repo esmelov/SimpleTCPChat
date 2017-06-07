@@ -3,13 +3,10 @@
 namespace TcpChatTypes
 {
     [Serializable]
-    public class MessageTypes
+    public enum MessageType
     {
-        public enum MessageType
-        {
-            UserMessage,
-            ServerMessage,
-            Exception
-        }
+        UserMessage,
+        ServerMessage,
+        Exception
     }
 }

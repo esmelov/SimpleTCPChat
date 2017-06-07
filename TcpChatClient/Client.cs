@@ -115,7 +115,7 @@ namespace TcpChatClient
                             string reverseId = new string(t);
                             _send_message(new ClientMessage
                             {
-                                PacketType = MessageTypes.MessageType.ServerMessage,
+                                PacketType = MessageType.ServerMessage,
                                 UserName = "Client",
                                 DateOfMessage = DateTime.Now,
                                 MessageText = _client.Client.RemoteEndPoint.ToString() + " my id: " + reverseId + "."
@@ -199,7 +199,7 @@ namespace TcpChatClient
                 throw new ArgumentNullException(nameof(messageText) + " Message can not be null or empty.");
             ClientMessage outgoingMessage = new ClientMessage()
             {
-                PacketType = MessageTypes.MessageType.UserMessage,
+                PacketType = MessageType.UserMessage,
                 UserName = UserName,
                 DateOfMessage = DateTime.Now,
                 MessageText = messageText

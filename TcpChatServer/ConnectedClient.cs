@@ -29,7 +29,7 @@ namespace TcpChatServer
         {
             SendIncomingMessage(new ClientMessage
             {
-                PacketType = MessageTypes.MessageType.ServerMessage,
+                PacketType = MessageType.ServerMessage,
                 UserName = "Server",
                 DateOfMessage = DateTime.Now,
                 MessageText = _tcp_client.Client.RemoteEndPoint.ToString() + " your id: " + Id + "."
@@ -44,7 +44,7 @@ namespace TcpChatServer
                     char[] t = Id.ToCharArray();
                     Array.Reverse(t);
                     string reverseId = new string(t);
-                    bool check = newMessage.PacketType == MessageTypes.MessageType.ServerMessage && newMessage.UserName == "Client" && newMessage.MessageText == _tcp_client.Client.LocalEndPoint.ToString() + " my id: " + reverseId + ".";
+                    bool check = newMessage.PacketType == MessageType.ServerMessage && newMessage.UserName == "Client" && newMessage.MessageText == _tcp_client.Client.LocalEndPoint.ToString() + " my id: " + reverseId + ".";
                     if (check) return true;
                     else break;
                 }
